@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <a href="/" class="logo">
+        <img
+          width="128"
+          src="img/logo.png"
+          alt="Logo: Food Index"
+          class="logo-image"
+        />
+      </a>
+      <form action="#" class="search-form">
+        <input type="search" placeholder="Блюда" class="search-input" />
+        <button class="search-button">
+          <img
+            src="img/search-icon.svg"
+            alt="search-icon"
+            class="search-icon"
+          />
+        </button>
+      </form>
+      <div class="auth">
+        <a href="#" class="login">Войти</a>
+      </div>
+      <!-- /.auth -->
+      <a href="#" class="shopping-cart">
+        <img src="img/fi-rr-shopping-cart.png" alt="cart" />
+        <span class="shopping-counter"> 12 </span>
+      </a>
+    </header>
+    <main class="container">
+      <div class="slider">
+        <div class="slide slide-text-light slide-summer">
+          <div class="slide-content">
+            <h2 class="slide-title">Неделя летних овощей</h2>
+            <p class="slide-text">
+              Специальная овощная корзина. Новые продукты, специальные цены,
+              скидки!
+            </p>
+            <a href="#" class="button button-primary">Заказать со скидкой</a>
+          </div>
+          <!-- /.slide-content -->
+        </div>
+        <!-- /.slide slide-text-light -->
+      </div>
+      <!-- /.slider -->
+      <div class="promo">
+        <section class="card card-text-light sweet-basket">
+          <img
+            src="img/sweet-basket.png"
+            alt="Сладкая корзина"
+            class="card-image"
+          />
+          <div class="card-header">
+            <h3 class="card-title">Сладкая корзина</h3>
+            <p class="card-description">
+              Произвольный выбор десертов по Вашему желанию.
+            </p>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-footer">
+            <strong class="card-price">ОТ 1 300 ₽</strong>
+            <span class="card-delivery">стоимость доставки до 200 ₽</span>
+            <a href="#" class="button button-default">Собрать корзину</a>
+          </div>
+          <!-- /.card-footer -->
+        </section>
+        <section class="card card-text-light minimum-effort">
+          <img
+            src="img/minimum-effort.png"
+            alt="Сладкая корзина"
+            class="card-image"
+          />
+          <div class="card-header">
+            <h3 class="card-title">Минимум усилий</h3>
+            <p class="card-description">
+              Произвольный выбор продуктов по Вашему желанию.
+            </p>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-footer">
+            <strong class="card-price">ОТ 700 ₽</strong>
+            <span class="card-delivery">стоимость доставки до 200 ₽</span>
+            <a href="#" class="button button-default">Собрать корзину</a>
+          </div>
+          <!-- /.card-footer -->
+        </section>
+      </div>
+      <!-- /.promo -->
+    </main>
+  </body>
+</html>
