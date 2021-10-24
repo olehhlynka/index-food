@@ -25,7 +25,7 @@
         />
       </a>
       <form action="#" class="search-form">
-        <input type="search" placeholder="Блюда" class="search-input" />
+        <input type="search" placeholder="Страви" class="search-input" />
         <button class="search-button">
           <img
             src="img/search-icon.svg"
@@ -35,7 +35,7 @@
         </button>
       </form>
       <div class="auth">
-        <a href="#" class="login">Войти</a>
+        <a href="#" class="login">Ввійти</a>
       </div>
       <!-- /.auth -->
       <a href="#" class="shopping-cart">
@@ -43,65 +43,240 @@
         <span class="shopping-counter"> 12 </span>
       </a>
     </header>
-    <main class="container">
-      <div class="slider">
+    <main class="main">
+      <div class="slider container">
         <div class="slide slide-text-light slide-summer">
           <div class="slide-content">
-            <h2 class="slide-title">Неделя летних овощей</h2>
+            <h2 class="slide-title">Тиждень літніх овочів</h2>
             <p class="slide-text">
-              Специальная овощная корзина. Новые продукты, специальные цены,
-              скидки!
+              Спеціальний овочевий кошик. Нові продукти, спеціальні ціни,
+              знижки!
             </p>
-            <a href="#" class="button button-primary">Заказать со скидкой</a>
+            <a href="#" class="button button-primary">Замовити зі знижкою</a>
           </div>
           <!-- /.slide-content -->
         </div>
         <!-- /.slide slide-text-light -->
       </div>
       <!-- /.slider -->
-      <div class="promo">
-        <section class="card card-text-light sweet-basket">
-          <img
-            src="img/sweet-basket.png"
-            alt="Сладкая корзина"
-            class="card-image"
-          />
-          <div class="card-header">
-            <h3 class="card-title">Сладкая корзина</h3>
-            <p class="card-description">
-              Произвольный выбор десертов по Вашему желанию.
-            </p>
-          </div>
-          <!-- /.card-header -->
-          <div class="card-footer">
-            <strong class="card-price">ОТ 1 300 ₽</strong>
-            <span class="card-delivery">стоимость доставки до 200 ₽</span>
-            <a href="#" class="button button-default">Собрать корзину</a>
-          </div>
-          <!-- /.card-footer -->
-        </section>
-        <section class="card card-text-light minimum-effort">
-          <img
-            src="img/minimum-effort.png"
-            alt="Сладкая корзина"
-            class="card-image"
-          />
-          <div class="card-header">
-            <h3 class="card-title">Минимум усилий</h3>
-            <p class="card-description">
-              Произвольный выбор продуктов по Вашему желанию.
-            </p>
-          </div>
-          <!-- /.card-header -->
-          <div class="card-footer">
-            <strong class="card-price">ОТ 700 ₽</strong>
-            <span class="card-delivery">стоимость доставки до 200 ₽</span>
-            <a href="#" class="button button-default">Собрать корзину</a>
-          </div>
-          <!-- /.card-footer -->
-        </section>
+      <div class="container">
+        <div class="promo">
+          <section class="card card-text-light sweet-basket">
+            <img
+              src="img/sweet-basket.png"
+              alt="Сладкая корзина"
+              class="card-image"
+            />
+            <div class="card-header">
+              <h3 class="card-title">Солодкий кошик</h3>
+              <p class="card-description">
+                Довільний вибір десертів за Вашим бажанням.
+              </p>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-footer">
+              <strong class="card-price">ВІД 1 300 ₴</strong>
+              <span class="card-delivery">вартість доставки до 200 ₴</span>
+              <a href="#" class="button button-default">Зібрати кошик</a>
+            </div>
+            <!-- /.card-footer -->
+          </section>
+          <section class="card card-text-light minimum-effort">
+            <img
+              src="img/minimum-effort.png"
+              alt="Сладкая корзина"
+              class="card-image"
+            />
+            <div class="card-header">
+              <h3 class="card-title">Мінімум зусиль</h3>
+              <p class="card-description">
+                Довільний вибір десертів за Вашим бажанням!
+              </p>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-footer">
+              <strong class="card-price">ВІД 700 ₴</strong>
+              <span class="card-delivery">вартість доставки до 200 ₴</span>
+              <a href="#" class="button button-default">Зібрати кошик</a>
+            </div>
+            <!-- /.card-footer -->
+          </section>
+        </div>
+        <!-- /.promo -->
       </div>
-      <!-- /.promo -->
+      <!-- /.container -->
+      <section class="delivery-week container">
+        <h2 class="section-title">Доставка готової їжі на тиждень</h2>
+        <div class="delivery-cards">
+          <div class="delivery-card">
+            <img src="img/cards/card1.png" alt="" class="delivery-image" />
+            <span class="delivery-tag tag-health">ЗОЖ</span>
+          </div>
+          <!-- /.delivery-card -->
+          <div class="delivery-card">
+            <img src="img/cards/card2.png" alt="" class="delivery-image" />
+            <span class="delivery-tag tag-vegetable">Овочеве</span>
+          </div>
+          <!-- /.delivery-card -->
+          <div class="delivery-card">
+            <img src="img/cards/card3.png" alt="" class="delivery-image" />
+            <span class="delivery-tag tag-meat">М'ясне</span>
+          </div>
+          <!-- /.delivery-card -->
+          <div class="delivery-card">
+            <img src="img/cards/card4.png" alt="" class="delivery-image" />
+            <span class="delivery-tag tag-poultry">Птиця</span>
+          </div>
+          <!-- /.delivery-card -->
+          <div class="delivery-card">
+            <img src="img/cards/card5.png" alt="" class="delivery-image" />
+            <span class="delivery-tag tag-fish">Рибне</span>
+          </div>
+          <!-- /.delivery-card -->
+          <div class="delivery-card">
+            <img src="img/cards/card6.png" alt="" class="delivery-image" />
+            <span class="delivery-tag tag-child">Дитяче</span>
+          </div>
+          <!-- /.delivery-card -->
+          <div class="delivery-card">
+            <img src="img/cards/card7.png" alt="" class="delivery-image" />
+            <span class="delivery-tag tag-parent">Батькам</span>
+          </div>
+          <!-- /.delivery-card -->
+          <div class="delivery-card">
+            <img src="img/cards/card8.png" alt="" class="delivery-image" />
+            <span class="delivery-tag tag-celebratory">Святкове</span>
+          </div>
+          <!-- /.delivery-card -->
+        </div>
+        <!-- /.delivery-cards -->
+      </section>
+      <section class="section-grey category">
+        <div class="container">
+          <h2 class="section-title">Категории блюд</h2>
+          <ul class="tabs">
+            <li class="tabs-item">
+              <a href="#" class="tabs-link active">Популярні страви</a>
+            </li>
+            <li class="tabs-item">
+              <a href="#" class="tabs-link">Овочеве</a>
+            </li>
+            <li class="tabs-item">
+              <a href="#" class="tabs-link">М'ясне</a>
+            </li>
+          </ul>
+          <div class="tabs-content">
+            <div class="tabs-card">
+              <img src="img/chicken-wings.png" alt="" class="tabs-card-image" />
+              <div class="tabs-card-content">
+                <h3 class="tabs-title">Курячі крильця під соусом Теріякі</h3>
+                <p class="tabs-description">
+                  Соус Теріякі придумали поварі з Японії. Традиційно його
+                  використовують в якості маринаду для...
+                </p>
+                <div class="tabs-info">
+                  <div class="tabs-good">
+                    <span class="tabs-price">260 ₴</span>
+                    <span class="tabs-weight">500 гр</span>
+                  </div>
+                  <!-- /.tabs-good -->
+                  <button class="button button-outline">В кошик</button>
+                </div>
+                <!-- /.tabs-info -->
+              </div>
+              <!-- /.tab-card-content -->
+            </div>
+            <!-- /.tabs-card -->
+            <div class="tabs-card">
+              <img src="img/chicken-wings.png" alt="" class="tabs-card-image" />
+              <div class="tabs-card-content">
+                <h3 class="tabs-title">Курячі крильця під соусом Теріякі</h3>
+                <p class="tabs-description">
+                  Соус Теріякі придумали поварі з Японії. Традиційно його
+                  використовують в якості маринаду для...
+                </p>
+                <div class="tabs-info">
+                  <div class="tabs-good">
+                    <span class="tabs-price">260 ₴</span>
+                    <span class="tabs-weight">500 гр</span>
+                  </div>
+                  <!-- /.tabs-good -->
+                  <button class="button button-outline">В кошик</button>
+                </div>
+                <!-- /.tabs-info -->
+              </div>
+              <!-- /.tab-card-content -->
+            </div>
+            <!-- /.tabs-card -->
+            <div class="tabs-card">
+              <img src="img/chicken-wings.png" alt="" class="tabs-card-image" />
+              <div class="tabs-card-content">
+                <h3 class="tabs-title">Курячі крильця під соусом Теріякі</h3>
+                <p class="tabs-description">
+                  Соус Теріякі придумали поварі з Японії. Традиційно його
+                  використовують в якості маринаду для...
+                </p>
+                <div class="tabs-info">
+                  <div class="tabs-good">
+                    <span class="tabs-price">260 ₴</span>
+                    <span class="tabs-weight">500 гр</span>
+                  </div>
+                  <!-- /.tabs-good -->
+                  <button class="button button-outline">В кошик</button>
+                </div>
+                <!-- /.tabs-info -->
+              </div>
+              <!-- /.tab-card-content -->
+            </div>
+            <!-- /.tabs-card -->
+            <div class="tabs-card">
+              <img src="img/chicken-wings.png" alt="" class="tabs-card-image" />
+              <div class="tabs-card-content">
+                <h3 class="tabs-title">Курячі крильця під соусом Теріякі</h3>
+                <p class="tabs-description">
+                  Соус Теріякі придумали поварі з Японії. Традиційно його
+                  використовують в якості маринаду для...
+                </p>
+                <div class="tabs-info">
+                  <div class="tabs-good">
+                    <span class="tabs-price">260 ₴</span>
+                    <span class="tabs-weight">500 гр</span>
+                  </div>
+                  <!-- /.tabs-good -->
+                  <button class="button button-outline">В кошик</button>
+                </div>
+                <!-- /.tabs-info -->
+              </div>
+              <!-- /.tab-card-content -->
+            </div>
+            <!-- /.tabs-card -->
+          </div>
+          <!-- /.tabs-content -->
+          <button class="button button-outline button-center">
+            Більше страв
+          </button>
+        </div>
+        <!-- /.container -->
+      </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wraper">
+          <img width="205" src="img/logo.png" alt="Logo" class="footer-logo" />
+          <ul class="footer-nav">
+            <a href="#" class="footer-link">Доставка і оплата</a>
+            <a href="#" class="footer-link">Напишіть нам</a>
+          </ul>
+          <div class="social-links">
+            <a href="#" class="social-link"><img src="img/telegram.svg" alt="telegram"></a>
+            <a href="#" class="social-link"><img src="img/vk.svg" alt="vk"></a>
+            <a href="#" class="social-link"><img src="img/instagram.svg" alt="instagram"></a>
+          </div>
+          <!-- /.social-links -->
+        </div>
+        <!-- /.footer-wraper -->
+      </div>
+      <!-- /.container -->
+    </footer>
   </body>
 </html>
