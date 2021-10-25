@@ -87,7 +87,7 @@ body {
 .slide {
   position: relative;
   border-radius: 20px;
-  min-height: 400px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   padding: 100px;
